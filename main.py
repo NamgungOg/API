@@ -10,3 +10,7 @@ def read_root():
 @app.get("/employees")
 def read_employee(name: str):
     return {"message": f"{name}님 반갑습니다.!"}
+
+@app.get("/employees2")
+def read_employee(name: str):
+    return {"message": f"{name}님 반갑습니다.!"}
